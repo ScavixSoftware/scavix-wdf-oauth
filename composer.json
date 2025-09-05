@@ -1,0 +1,24 @@
+{
+	"name": "scavix-wdf/oauth",
+	"version": "2025.9.0",
+	"description": "OAuth components",
+	"type": "library",
+	"license": "LGPL-3.0-or-later",
+	"autoload": {
+		"files": [
+			"bootstrap.php"
+		]
+	},
+	"require": {
+		"scavix-wdf/core": "^2025.9.0",
+        "league/oauth2-client": ">=2.0"
+	},
+    "suggest":
+    {
+        "league/oauth2-facebook": "Official: Facebook",
+        "league/oauth2-github": "Official: Github",
+        "league/oauth2-google": "Official: Google",
+        "league/oauth2-instagram": "Official: Instagram",
+        "league/oauth2-linkedin": "Official: LinkedIn"
+    }
+}
