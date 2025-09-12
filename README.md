@@ -5,10 +5,6 @@ It contains an automatic wrapper that handles the requirements of [League/oauth2
 
 Installation
 ============
-Install the package with `composer require scavix/wdf-oauth`
+Install the package with `composer require {{name}}`.
 
-Dependencies
-============
 You may install any of the [official](https://oauth2-client.thephpleague.com/providers/league/) or [third party](https://oauth2-client.thephpleague.com/providers/thirdparty/) or implement your own provider and install that.
-
-* [league/oauth2-client](https://packagist.org/packages/league/oauth2-client)
