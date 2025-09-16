@@ -1,39 +1,37 @@
 {
-	"name": "scavix/wdf-oauth",
-	"version": "1.0.1",
-	"description": "OAuth components",
-	"type": "library",
-	"license": "LGPL-3.0-or-later",
-    "authors": [
-		{
-			"name": "Scavix Software GmbH & Co. KG",
-			"email": "info@scavix.com",
-			"homepage": "http://www.scavix.com/"
-		},
-		{
-			"name": "Christoph Bünger",
-			"homepage": "https://github.com/christophbue"
-		},
-		{
-			"name": "Daniel Spors",
-			"homepage": "https://github.com/DaSpors"
-		}
-	],
-	"autoload": {
-		"files": [
-			"bootstrap.php"
-		]
-	},
-	"require": {
-		"scavix/wdf-core": "^1.0.1",
-        "league/oauth2-client": ">=2.0"
-	},
-    "suggest":
+  "name": "scavix/wdf-oauth",
+  "description": "OAuth components",
+  "type": "library",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
     {
-        "league/oauth2-facebook": "Official: Facebook",
-        "league/oauth2-github": "Official: Github",
-        "league/oauth2-google": "Official: Google",
-        "league/oauth2-instagram": "Official: Instagram",
-        "league/oauth2-linkedin": "Official: LinkedIn"
+      "name": "Scavix Software GmbH & Co. KG",
+      "email": "info@scavix.com",
+      "homepage": "http://www.scavix.com/"
+    },
+    {
+      "name": "Christoph Bünger",
+      "homepage": "https://github.com/christophbue"
+    },
+    {
+      "name": "Daniel Spors",
+      "homepage": "https://github.com/DaSpors"
     }
+  ],
+  "autoload": {
+    "files": [
+      "bootstrap.php"
+    ]
+  },
+  "require": {
+    "scavix/wdf-core": "^1.0.1",
+    "league/oauth2-client": ">=2.0"
+  },
+  "suggest": {
+    "league/oauth2-facebook": "Official: Facebook",
+    "league/oauth2-github": "Official: Github",
+    "league/oauth2-google": "Official: Google",
+    "league/oauth2-instagram": "Official: Instagram",
+    "league/oauth2-linkedin": "Official: LinkedIn"
+  }
 }
