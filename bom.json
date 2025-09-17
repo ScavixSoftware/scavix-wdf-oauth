@@ -1,0 +1,645 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 2,
+  "metadata": {
+    "timestamp": "2025-09-17T07:46:45.859Z",
+    "manufacturer": {
+      "name": "Scavix Software GmbH & Co. KG",
+      "url": [
+        "https://www.scavix.com"
+      ]
+    },
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/wdf-oauth@1.0.1",
+      "purl": "pkg:composer/scavix/wdf-oauth@1.0.1",
+      "group": "scavix",
+      "name": "wdf-oauth",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Scavix Software GmbH & Co. KG",
+          "email": "info@scavix.com"
+        },
+        {
+          "name": "Christoph Bünger"
+        },
+        {
+          "name": "Daniel Spors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "description": "OAuth components"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/wdf-oauth@1.0.1",
+      "purl": "pkg:composer/scavix/wdf-oauth@1.0.1",
+      "group": "scavix",
+      "name": "wdf-oauth",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Scavix Software GmbH & Co. KG",
+          "email": "info@scavix.com"
+        },
+        {
+          "name": "Christoph Bünger"
+        },
+        {
+          "name": "Daniel Spors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "description": "OAuth components"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/wdf-core@1.0.2",
+      "purl": "pkg:composer/scavix/wdf-core@1.0.2",
+      "group": "scavix",
+      "name": "wdf-core",
+      "version": "1.0.2",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Scavix Software GmbH & Co. KG",
+          "email": "info@scavix.com"
+        },
+        {
+          "name": "Christoph Bünger"
+        },
+        {
+          "name": "Daniel Spors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "description": "Core components"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/lessphp@v0.8.1",
+      "purl": "pkg:composer/scavix/lessphp@v0.8.1",
+      "group": "scavix",
+      "name": "lessphp",
+      "version": "v0.8.1",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Leaf Corcoran",
+          "email": "leafot@gmail.com"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "description": "lessphp is a compiler for LESS written in PHP."
+    },
+    {
+      "type": "library",
+      "bom-ref": "external:jQuery@3.7.1",
+      "group": "external",
+      "name": "jQuery",
+      "version": "3.7.1",
+      "description": "jQuery is a fast, small, and feature-rich JavaScript library.",
+      "authors": [
+        {
+          "name": "OpenJS Foundation and other contributors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jquery.com/"
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "bom-ref": "file:jQuery@3.7.1/res/jquery.js",
+          "group": "files",
+          "name": "res/jquery.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://code.jquery.com/jquery-3.7.1.min.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external:jQuery UI@1.14.1",
+      "group": "external",
+      "name": "jQuery UI",
+      "version": "1.14.1",
+      "description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.",
+      "authors": [
+        {
+          "name": "OpenJS Foundation and other contributors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jqueryui.com/"
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "bom-ref": "file:jQuery UI@1.14.1/res/jquery-ui/jquery-ui.js",
+          "group": "files",
+          "name": "res/jquery-ui/jquery-ui.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://cdn.jsdelivr.net/npm/jquery-ui@1.14.1/dist/jquery-ui.min.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/league/oauth2-client@2.8.1",
+      "purl": "pkg:composer/league/oauth2-client@2.8.1",
+      "group": "league",
+      "name": "oauth2-client",
+      "version": "2.8.1",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Alex Bilbie",
+          "email": "hello@alexbilbie.com"
+        },
+        {
+          "name": "Woody Gilk"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "OAuth 2.0 Client Library"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/guzzlehttp/guzzle@7.10.0",
+      "purl": "pkg:composer/guzzlehttp/guzzle@7.10.0",
+      "group": "guzzlehttp",
+      "name": "guzzle",
+      "version": "7.10.0",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Graham Campbell",
+          "email": "hello@gjcampbell.co.uk"
+        },
+        {
+          "name": "Michael Dowling",
+          "email": "mtdowling@gmail.com"
+        },
+        {
+          "name": "Jeremy Lindblom",
+          "email": "jeremeamia@gmail.com"
+        },
+        {
+          "name": "George Mponos",
+          "email": "gmponos@gmail.com"
+        },
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com"
+        },
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com"
+        },
+        {
+          "name": "Tobias Schultze",
+          "email": "webmaster@tubo-world.de"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "Guzzle is a PHP HTTP client library"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/guzzlehttp/promises@2.3.0",
+      "purl": "pkg:composer/guzzlehttp/promises@2.3.0",
+      "group": "guzzlehttp",
+      "name": "promises",
+      "version": "2.3.0",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Graham Campbell",
+          "email": "hello@gjcampbell.co.uk"
+        },
+        {
+          "name": "Michael Dowling",
+          "email": "mtdowling@gmail.com"
+        },
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com"
+        },
+        {
+          "name": "Tobias Schultze",
+          "email": "webmaster@tubo-world.de"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "Guzzle promises library"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/guzzlehttp/psr7@2.8.0",
+      "purl": "pkg:composer/guzzlehttp/psr7@2.8.0",
+      "group": "guzzlehttp",
+      "name": "psr7",
+      "version": "2.8.0",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Graham Campbell",
+          "email": "hello@gjcampbell.co.uk"
+        },
+        {
+          "name": "Michael Dowling",
+          "email": "mtdowling@gmail.com"
+        },
+        {
+          "name": "George Mponos",
+          "email": "gmponos@gmail.com"
+        },
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com"
+        },
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com"
+        },
+        {
+          "name": "Tobias Schultze",
+          "email": "webmaster@tubo-world.de"
+        },
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "PSR-7 message implementation that also provides common utility methods"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/psr/http-factory@1.1.0",
+      "purl": "pkg:composer/psr/http-factory@1.1.0",
+      "group": "psr",
+      "name": "http-factory",
+      "version": "1.1.0",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "PHP-FIG"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "PSR-17: Common interfaces for PSR-7 HTTP message factories"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/psr/http-message@2.0",
+      "purl": "pkg:composer/psr/http-message@2.0",
+      "group": "psr",
+      "name": "http-message",
+      "version": "2.0",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "PHP-FIG"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "Common interface for HTTP messages"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/psr/http-message@2.0",
+      "purl": "pkg:composer/psr/http-message@2.0",
+      "group": "psr",
+      "name": "http-message",
+      "version": "2.0",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "PHP-FIG"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "Common interface for HTTP messages"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/ralouphie/getallheaders@3.0.3",
+      "purl": "pkg:composer/ralouphie/getallheaders@3.0.3",
+      "group": "ralouphie",
+      "name": "getallheaders",
+      "version": "3.0.3",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Ralph Khattar",
+          "email": "ralph.khattar@gmail.com"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "A polyfill for getallheaders."
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/psr/http-client@1.0.3",
+      "purl": "pkg:composer/psr/http-client@1.0.3",
+      "group": "psr",
+      "name": "http-client",
+      "version": "1.0.3",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "PHP-FIG"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "Common interface for HTTP clients"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/deprecation-contracts@v3.6.0",
+      "purl": "pkg:composer/symfony/deprecation-contracts@v3.6.0",
+      "group": "symfony",
+      "name": "deprecation-contracts",
+      "version": "v3.6.0",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Nicolas Grekas",
+          "email": "p@tchwork.com"
+        },
+        {
+          "name": "Symfony Community"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "A generic function and convention to trigger deprecation notices"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:composer/scavix/wdf-oauth@1.0.1",
+      "dependsOn": [
+        "pkg:composer/scavix/wdf-core@1.0.2",
+        "pkg:composer/league/oauth2-client@2.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:composer/scavix/wdf-core@1.0.2",
+      "dependsOn": [
+        "pkg:composer/scavix/lessphp@v0.8.1",
+        "external:jQuery@3.7.1",
+        "external:jQuery UI@1.14.1"
+      ]
+    },
+    {
+      "ref": "pkg:composer/scavix/lessphp@v0.8.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:composer/league/oauth2-client@2.8.1",
+      "dependsOn": [
+        "pkg:composer/guzzlehttp/guzzle@7.10.0"
+      ]
+    },
+    {
+      "ref": "pkg:composer/guzzlehttp/guzzle@7.10.0",
+      "dependsOn": [
+        "pkg:composer/guzzlehttp/promises@2.3.0",
+        "pkg:composer/guzzlehttp/psr7@2.8.0",
+        "pkg:composer/psr/http-client@1.0.3",
+        "pkg:composer/symfony/deprecation-contracts@v3.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:composer/guzzlehttp/promises@2.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:composer/guzzlehttp/psr7@2.8.0",
+      "dependsOn": [
+        "pkg:composer/psr/http-factory@1.1.0",
+        "pkg:composer/psr/http-message@2.0",
+        "pkg:composer/ralouphie/getallheaders@3.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:composer/psr/http-factory@1.1.0",
+      "dependsOn": [
+        "pkg:composer/psr/http-message@2.0"
+      ]
+    },
+    {
+      "ref": "pkg:composer/psr/http-message@2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:composer/ralouphie/getallheaders@3.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:composer/psr/http-client@1.0.3",
+      "dependsOn": [
+        "pkg:composer/http-message@2.0"
+      ]
+    },
+    {
+      "ref": "pkg:composer/symfony/deprecation-contracts@v3.6.0",
+      "dependsOn": []
+    }
+  ]
+}
