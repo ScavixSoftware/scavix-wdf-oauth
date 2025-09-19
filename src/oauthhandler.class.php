@@ -88,7 +88,7 @@ class OAuthHandler
      */
     function getProviderInstance()
     {
-        $map = ifavail(self::$map,$this->provider_name);
+        $map = self::$map[$this->provider_name] ?? null;
         if( !$map )
         {
             log_error("Unknown OAuth provider {$this->provider_name}. Implementation in WDF missing.");
@@ -150,7 +150,7 @@ class OAuthHandler
                 header('Location: ' . $authorizationUrl);
                 die();
             }
-            elseif( !$this->state || ifavail($_GET,'state') !== $this->state )
+            elseif( !$this->state || ($_GET['state']??null) !== $this->state )
             {
                 delete_object('oauth_current_handler');
                 log_error(__METHOD__,'Invalid OAuth state',$this,$_GET);
