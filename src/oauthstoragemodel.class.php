@@ -209,7 +209,6 @@ class OAuthStorageModel extends Model
     /**
      * Cleans up entries older than a given age.
      *
-     * @param string $maxage Age string like '30 day' or '1 year'
      * @param int $limit Maximum number of entries to delete
      * @return void
      */
