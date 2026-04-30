@@ -33,17 +33,11 @@ Wdf::RegisterPackage('oauth', 'oauth_init');
 function oauth_init()
 {
     classpath_add(__DIR__."/src");
-    if( !class_exists("\\League\\OAuth2\\Client\\Provider\\GenericProvider") )
-    {
-        log_warn("Missing OAuth classes, see https://oauth2-client.thephpleague.com/ for installation instructions");
-        return;
-    }
-
     if( in_object_storage('oauth_current_handler') )
     {
         $handler = restore_object('oauth_current_handler');
         register_hook(HOOK_POST_INIT,$handler,'authorize');
-    }//else log_debug('OAuth not started');
+    }
 }
 
 /**

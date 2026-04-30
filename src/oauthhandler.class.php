@@ -123,6 +123,11 @@ class OAuthHandler
      */
     function authorize()
     {
+        if (!class_exists("\\League\\OAuth2\\Client\\Provider\\GenericProvider"))
+        {
+            log_warn("Missing OAuth classes, see https://oauth2-client.thephpleague.com/ for installation instructions");
+            return;
+        }
         try
         {
             if( isset($_GET['error_code']) )
