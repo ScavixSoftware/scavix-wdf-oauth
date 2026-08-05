@@ -20,6 +20,10 @@
 		}
 	],
 	"autoload": {
+        "psr-4": {
+            "ScavixWDF\\OAuth\\": "src/",
+            "ScavixWDF\\Model\\": "src/"
+        },
 		"files": [
 			"bootstrap.php"
 		]

@@ -32,7 +32,6 @@ Wdf::RegisterPackage('oauth', 'oauth_init');
  */
 function oauth_init()
 {
-    classpath_add(__DIR__."/src");
     if( in_object_storage('oauth_current_handler') )
     {
         $handler = restore_object('oauth_current_handler');
